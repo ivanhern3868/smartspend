@@ -1,0 +1,34 @@
+.main {  display: grid;
+  grid-template-columns: 0.9fr 1.1fr 1.1fr 0.9fr;
+  grid-template-rows: 300px 300px 300px;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "top_left top_1 top_2 top_3"
+    "middle_left middle_1 middle_2 middle_3"
+    "bottom_left bottom_1 bottom_2 bottom_3";
+}
+
+.top_left { grid-area: top_left; }
+
+.middle_left { grid-area: middle_left; }
+
+.bottom_left { grid-area: bottom_left; }
+
+.top_1 { grid-area: top_1; }
+
+.top_2 { grid-area: top_2; }
+
+.top_3 { grid-area: top_3; }
+
+.middle_1 { grid-area: middle_1; }
+
+.middle_2 { grid-area: middle_2; }
+
+.middle_3 { grid-area: middle_3; }
+
+.bottom_1 { grid-area: bottom_1; }
+
+.bottom_2 { grid-area: bottom_2; }
+
+.bottom_3 { grid-area: bottom_3; }
